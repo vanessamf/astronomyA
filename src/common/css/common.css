@@ -1,0 +1,137 @@
+body{
+	/*position:fixed;*/
+	width:100%;
+}
+
+.top{
+		padding:15px;
+		text-align: center;
+		color:#17e8de;
+		font-weight:300;
+	}
+	.content-container{
+		/*text-align: center;*/
+		padding:0 20px;
+	}
+	.content-container ul{
+		
+		/*margin:0 auto;*/
+	}
+	.content-container li{
+		display: inline-block;
+		text-align: left;
+		width:158px;
+		padding-bottom:5px;
+	}
+	.content-container li:nth-child(odd){
+		/*float:left;*/
+	}
+	.content-container li:nth-child(even){
+		/*float:right;*/
+	}
+	.content-container li span{
+		font-size:14px;
+		color:#000;
+		display: inline-block;
+		/*line-height:16px;*/
+	}
+	.content-container li .star{
+		display: inline-block;
+		vertical-align: middle;
+		line-height:6px;
+	}
+	
+	.content-container li .text{
+		color:#17e8de;
+		font-weight:300;
+	}
+	.presummary{
+		font-size:14px;
+		margin-bottom:5px;
+	}
+	.presummary .title{
+		
+	}
+	.presummary .text{
+		color:#17e8de;
+		font-weight:300;
+	}
+	
+.desc-container{
+		padding:10px 20px;
+		
+	}
+	.desc-container ul{
+		padding:5px 5px;
+		border-top:1px solid #eee;
+	}
+	.desc-container li .title-content{
+		padding:10px 0;
+		position:relative;
+		line-height:22px;
+	}
+	.desc-container li i{
+		color:#fff;
+		/*padding:5px;*/
+		
+		/*margin-right:5px;*/
+	}
+	.desc-container li i:before{
+		/*content:"\f004";*/
+		content:"\f201";
+		font: 14px/1 FontAwesome;
+		
+		/*z-index:9999;*/
+	}
+	.desc-container li:nth-of-type(2) i:before{
+		/*content:"\f201";*/
+		content:"\f004";
+	}
+	.desc-container li:nth-of-type(3) i:before{
+		content:"\f0b1";
+	}
+	.desc-container li:nth-of-type(4) i:before{
+		content:"\f0d6";
+	}
+	.desc-container li:nth-of-type(5) i:before{
+		content:"\f21e";
+	}
+	
+	.desc-container li i:after{
+		content:'';
+		position:absolute;
+		left:-4px;
+		top:10px;
+		/*left:50%;
+		top:50%;*/
+		width:22px;
+		height:22px;
+		border-radius:50%;
+		background: #6fa8dc;
+		 /*background:#f29ac1;*/
+		
+	    /*font-family:FontAwesome;*/
+	    z-index:-1;
+	}
+	.desc-container li:nth-of-type(2) i:after{
+		background: #f095a9;
+	}
+	.desc-container li:nth-of-type(3) i:after{
+		background: #b790ee;
+	}
+	.desc-container li:nth-of-type(4) i:after{
+		background: #f6d05d;
+		/*left:-4px;*/
+		/*top:11px;*/
+	}
+	.desc-container li:nth-of-type(5) i:after{
+		background: #74df09;
+		/*left:-4px;*/
+		/*top:11px;*/
+	}
+	.desc-container li span{
+		margin-left:8px;
+	}
+	.desc-container li p{
+		font-size:14px;
+	}
