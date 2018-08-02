@@ -1,28 +1,22 @@
 <template>
 	<div id="app">
-		<!--<v-header :astronomy="astronomy" :astronomyList="astronomyList" ref="astro"></v-header>-->
 		<v-header :astronomyList="astronomyList" :astronomy="astronomy" :id="id"></v-header>
 		<div class="tab ">
 			<transition name="fade">
 				<div class="tab-item">
-					<!--<a v-link="{path:'/goods'}">商品</a>-->
 					<router-link to="/today">今日</router-link>
 				</div>
 			</transition>
 			<div class="tab-item">
-				<!--<a v-link="{path:'/ratings'}">评论</a>-->
 				<router-link to="/tomorrow">明日</router-link>
 			</div>
 			<div class="tab-item">
-				<!--<a v-link="{path:'/seller'}">商家</a>-->
 				<router-link to="/week">本周</router-link>
 			</div>
 			<div class="tab-item">
-				<!--<a v-link="{path:'/seller'}">商家</a>-->
 				<router-link to="/month">本月</router-link>
 			</div>
 			<div class="tab-item">
-				<!--<a v-link="{path:'/seller'}">商家</a>-->
 				<router-link to="/year">本年</router-link>
 			</div>
 		</div>
