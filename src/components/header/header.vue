@@ -102,7 +102,7 @@
 	            }else{  
 	                localStorage.setItem('astroId', 0) 
 	            }  
-				this.$router.go(0);
+				this.$router.go(0);//刷新当前页面
 				//parent.location.reload();
 			}
 		}

@@ -64,6 +64,7 @@ const devWebpackConfig = merge(baseWebpackConfig, {
 						data: astronomyList
 					})//接口返回json数据，上面配置的数据astronomyList就赋值给data请求后调用
 				}),
+				
 				app.get('/api/astronomyDetail', (req, res) => {
 					res.json({
 						errno: 0,
